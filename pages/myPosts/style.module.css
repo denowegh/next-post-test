@@ -1,0 +1,26 @@
+.scrollbarStyle::-webkit-scrollbar {
+	height: 8px;
+}
+
+.scrollbarStyle::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+.scrollbarStyle::-webkit-scrollbar-thumb {
+	background: #d7dfe2;
+	border-radius: 7px;
+}
+
+.scrollbarStyle::-webkit-scrollbar-thumb:hover {
+	background: #b3b2b2;
+}
+
+.orderedList li:nth-child(odd) {
+	list-style-type: none;
+	color: black;
+}
+
+.orderedList li:nth-child(even) {
+	list-style-type: none;
+	color: gray;
+}

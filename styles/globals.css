@@ -1,0 +1,23 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'react-toastify/dist/ReactToastify.css';
+
+body::-webkit-scrollbar {
+	width: 10px;
+}
+
+html {
+	overflow-x: hidden;
+}
+
+body::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: #d7dfe2;
+	border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+	background: #b3b2b2;
+}

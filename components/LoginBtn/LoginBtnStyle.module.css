@@ -1,0 +1,16 @@
+.loginImage {
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+.pulseButton {
+	transition: transform 0.3s ease-in-out, border 0.2s ease-in-out;
+}
+
+.pulseButton:active {
+	transform: scale(1.2);
+}
+
+.pulseButton:hover {
+	border: 5px solid #28a745 !important;
+}
